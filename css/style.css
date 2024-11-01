@@ -1,0 +1,70 @@
+.jb_recent_posts{
+	width:100%;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.jb_recent_posts ul{
+	margin:0px; 
+	padding:0px; 
+	list-style:none; 
+	text-align:left; 
+	float:none;
+}
+.jb_recent_posts ul li{
+	display:block; 
+	float:none;
+	margin:15px 0px;
+	overflow:hidden;
+}
+.jb_recent_posts ul li .thumbnail_left{
+	float:left; 
+	width:35%; 
+	overflow:hidden;
+	padding-right:10px; 
+	box-sizing:border-box;
+}
+ .jb_recent_posts ul li .thumbnail_left img{
+	width:100%;
+	height:auto;
+	padding: 3px;
+	border: 1px solid #EDEAEA;
+	border-radius: 3px;
+ }
+ .jb_recent_posts ul li .jb_post_content{
+	float:right; 
+	padding-left:10px; 
+	box-sizing:border-box; 
+	overflow:hidden;
+	width:65%;
+ }
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_title h4{
+	margin:0px 0px 5px 0px;
+	padding:0px;
+	font-size:14px;
+	line-height:18px;
+	color:#111;
+}
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_title a{
+	text-decoration:none;
+}
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_title h4:hover{
+	color: #4db2ec;
+}
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_meta{
+	width:100%; 
+	overflow:hidden;
+}
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_meta .jb_post_time{
+	margin:2px 0px; 
+	padding:0px 5px 0px 0px; 
+	font-size:12px;
+	color:#666;
+	float:left;
+}
+.jb_recent_posts ul li .jb_post_content .jb_recent_post_meta .jb_post_author{
+	margin:2px 0px; 
+	padding:0px 0px 0px 5px; 
+	font-size:12px;
+	color:#666;
+	float:left;
+}
